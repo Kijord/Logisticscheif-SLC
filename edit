@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SLC Stream Overlay Template</title>
+
+    <style type="text/css">
+        body {
+            background-color: transparent;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 12px;
+        }
+
+        div {
+            display: inline-block;
+            text-align: center;
+            width: 10%;
+        }
+
+            div > strong {
+                font-weight: bold;
+                color: #ccc;
+            }
+
+            div span {
+                display: block;
+                font-size: 14px;
+                color: #fff;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+
+    <div>
+        <strong>Altitude</strong>
+        <span>{SLC_altitude}</span>
+    </div>
+
+    <div>
+        <strong>Heading</strong>
+        <span>{SLC_heading}</span>
+    </div>
+
+    <div>
+        <strong>Vertical Speed</strong>
+        <span>{SLC_verticalSpeed}</span>
+    </div>
+    <div>
+        <strong>GForce</strong>
+        <span>{SLC_gForce}</span>
+    </div>
+
+    <div>
+        <strong>Roll</strong>
+        <span>{SLC_roll}</span>
+    </div>
+
+    <div>
+        <strong>Pitch</strong>
+        <span>{SLC_pitch}</span>
+    </div>
+    <div>
+        <strong>Flight Status</strong>
+        <span>{SLC_flightStatus}</span>
+    </div>
+    <div>
+        <strong>Flight Number</strong>
+        <span>{SLC_flightNumber}</span>
+    </div>
+    <div>
+        <strong>Airline</strong>
+        <span>{SLC_airline}</span>
+    </div>
+    <div>
+        <strong>Aircraft</strong>
+        <span>{SLC_aircraft}</span>
+    </div>
+    <div>
+        <strong>Departure Time Actual</strong>
+        <span>{SLC_departureTimeActual}</span>
+    </div>
+    <div>
+        <strong>Departure Time Planned</strong>
+        <span>{SLC_departureTimePlanned}</span>
+    </div>
+    <div>
+        <strong>Arrival Time Planned</strong>
+        <span>{SLC_arrivalTimePlanned}</span>
+    </div>
+    <div>
+        <strong>Arrival Time Expected</strong>
+        <span>{SLC_arrivalTimeExpected}</span>
+    </div>
+    <div>
+        <strong>Arrival Time Actual</strong>
+        <span>{SLC_arrivalTimeActual}</span>
+    </div>
+    <div>
+        <strong>Departure Airport ICAO</strong>
+        <span>{SLC_departureAirportICAO}</span>
+    </div>        <div>
+        <strong>Departure Airport Name</strong>
+        <span>{SLC_departureAirportName}</span>
+    </div>
+    <div>
+        <strong>Arrival Airport ICAO</strong>
+        <span>{SLC_arrivalAirportICAO}</span>
+    </div>
+    <div>
+        <strong>Arrival Airport Name</strong>
+        <span>{SLC_arrivalAirportName}</span>
+    </div>
+    <div>
+        <strong>Purser Current Activity</strong>
+        <span>{SLC_purserCurrentActivity}</span>
+    </div>
+    <div>
+        <strong>Number of Passengers</strong>
+        <span>{SLC_numPassengers}</span>
+    </div>
+    <div>
+        <strong>Number of Passengers Onboard</strong>
+        <span>{SLC_numPassengersOnboard}</span>
+    </div>
+    <div>
+        <strong>Number of Passengers Not Onboard</strong>
+        <span>{SLC_numPassengersNotOnBoard}</span>
+    </div>        <div>
+        <strong>Number of Crew</strong>
+        <span>{SLC_numCrew}</span>
+    </div>        <div>
+        <strong>Num Passengers Seated</strong>
+        <span>{SLC_numPassengersSeated}</span>
+    </div>        <div>
+        <strong>Num Passengers Belted</strong>
+        <span>{SLC_numPassengersBelted}</span>
+    </div>   <div>
+        <strong>Satisfaction</strong>
+        <span>{SLC_passengerSatisfaction}</span>
+    </div>   <div>
+        <strong>Satisfaction Improvement</strong>
+        <span>{SLC_passengerSatisfactionImprovement}</span>
+    </div>
+</body>
+</html>
